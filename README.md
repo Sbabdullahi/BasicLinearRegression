@@ -21,14 +21,14 @@ This project aims to classify human actions based on daily activities using a cu
 ## Installation
 To get started, clone this repository and install the required dependencies:
 ```bash
-git clone https://github.com/yourusername/human-action-classification.git
+git clone https://github.com/Sbabdullahi/human-action-classification.git
 cd human-action-classification
 pip install -r requirements.txt
 
 ## Usage
 1. **Load the dataset**: Ensure your dataset is in the correct format and path.
 2. **Run the script**: Execute the main script to train and evaluate the model.
-python main.py
+python BasicLogisticRegressionForClassification.py
 
 ## Dataset
 The dataset used in this project contains labeled data representing various human actions performed during daily activities. Ensure the dataset includes a `LABEL` column for the target variable.
